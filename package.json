@@ -1,6 +1,9 @@
 {
   "name": "ups-labs",
   "version": "0.0.0",
+  "engines": {
+    "node": "v14.18.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
