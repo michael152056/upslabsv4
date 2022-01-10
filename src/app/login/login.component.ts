@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   constructor(public userService: UsersService, public router: Router) { 
     
   }
-  getUser() {
+/*   getUser() {
     const user = { email: this.email, password: this.password };
     var email = this.email;
     this.userService.getUser(email).subscribe(data => {
@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
        this.router.navigateByUrl('/');
     });
   }
-
+ */
   ngOnInit(): void {
 
   }
