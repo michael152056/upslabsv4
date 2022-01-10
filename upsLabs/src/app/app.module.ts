@@ -95,7 +95,9 @@ const rutas:Route[] = [
     EventosComponent,
     VerHorarioComponent,
     CrearUsuarioComponent,
-    ListarUsuariosComponent
+    ListarUsuariosComponent,
+    ActualizarDatosComponent,
+    ReservaLabComponent
   ],
   imports: [
     BrowserModule,
