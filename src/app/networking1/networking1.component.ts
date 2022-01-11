@@ -12,4 +12,8 @@ export class Networking1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  recargar(url:string){
+    window.open(url, '_blank');
+  }
+  
 }

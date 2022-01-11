@@ -15,6 +15,9 @@ export class LaboratoriosComponent implements OnInit {
 
   }
 
-
+  recargar(url:string){
+    window.open(url, '_blank');
+  }
+  
 
 }
